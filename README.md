@@ -20,7 +20,7 @@ We have four steps in this approach (Figure B). In Step-1, we use GAMa-Net which
 Using multiple clips of a video, we get a sequence of aerial images for the whole video, i.e. around 40 small aerial images. In Step-2, we use these predictions of aerial images and match them to the corresponding larger aerial region. We use a screening network to match the features however the features are from the
 same view i.e aerial view. In Step-3, we use the predictions to reduce the gallery by only keeping top ranked large aerial regions corresponding to a video. These large aerial regions define our new gallery for a given video. In Step-4, we use GAMa-Net i.e. the same network as in Step-1, however geo-localize using the updated gallery.
 
-![gif](predictions_2.gif)
+![gif](predictions_2.gif "Aerial image> Ground truth trajectory> GAMa-Net pred> GAMa-Net with hierarchical> outliers")
 
 The gif shows an example of large aerial region for a video and ground truth trajectory as marked by the green line. Initially, only few of the top-1 images matched by GAMa-Net are in the region (White boxes with numbers). The number represent the order of the clip in the video. After using updated gallery by hierarchical approach we have many more predictions in the correct region (Green boxes with numbers). At the end, we also show the outlier that do not fall in the correct larger aerial region.
 
