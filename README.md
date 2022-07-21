@@ -10,7 +10,7 @@ In the gif, we see an example of a large aerial region, along with the video fra
 
 ## Dataset and Hierarchical approach
 
-![image](github.jpg)
+![image](fig2_3.jpg)
 
 ### Dataset
 The dataset comprises of one large aerial image (1792x1792) corresponding to each video of around 40 sec. In figure on left, we see an example of a large aerial region, along with the video frames at each second. We also have a centered (CN) and an uncentered (UCN) set of small aerial images corresponding to the clips of 1 second each.
