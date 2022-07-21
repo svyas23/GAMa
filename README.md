@@ -8,6 +8,10 @@ This is the repository for ECCV 2022 paper titled: ["GAMa: Cross-view Video Geo-
 
 ![image](github.jpg)
 
+### Approach: We have four steps in this approach. In Step-1, we use GAMa-Net which takes one clip (0.5 sec) at a time and matches with an aerial image.
+Using multiple clips of a video, we get a sequence of aerial images for the whole video, i.e. around 40 small aerial images. In Step-2, we use these predictions of aerial images and match them to the corresponding larger aerial region. We use a screening network to match the features however the features are from the
+same view i.e aerial view. In Step-3, we use the predictions to reduce the gallery by only keeping top ranked large aerial regions corresponding to a video. These large aerial regions define our new gallery for a given video. In Step-4, we use GAMa-Net i.e. the same network as in Step-1, however geo-localize using the updated gallery.
+
 GAMa (Ground-video to Aerial-image Matching) dataset
 
 Aerial images of GAMa dataset can be downloaded from this [link:](
