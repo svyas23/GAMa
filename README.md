@@ -52,8 +52,9 @@ https://bdd-data.berkeley.edu/
 	
 More details regarding training and evaluation are in Readme.txt file.
 
-## Publication
+## Cite
 
+```
 @inproceedings{vyas2022gama,
   title={GAMa: Cross-view Video Geo-localization},
   author={Vyas, Shruti and Chen, Chen and Shah, Mubarak},
@@ -61,4 +62,4 @@ More details regarding training and evaluation are in Readme.txt file.
   year={2022},
   organization={Springer}
 }
-
+```
