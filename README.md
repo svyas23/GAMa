@@ -30,9 +30,9 @@ https://bdd-data.berkeley.edu/
 - Opencv3.5, Numpy, Matplotlib
 - Pytorch3, Python 3.6.9
 
-########################################
+____________________________________________
 ### Evaluation of Hierarchical approach
-########################################
+_____________________________________________
    
 
 ### Final Evaluation of GAMa-Net model on updated/new gallery: 
