@@ -1,6 +1,7 @@
-# GAMa: Cross-view Video Geo-localization
-GAMa (Ground-video to Aerial-image Matching)
-Repository by [Shruti Vyas](https://scholar.google.com/citations?user=15YqUQUAAAAJ&hl=en)
+# GAMa: Cross-view Video Geo-localization by [Shruti Vyas](https://scholar.google.com/citations?user=15YqUQUAAAAJ&hl=en); [Chen Chen](https://scholar.google.com/citations?user=TuEwcZ0AAAAJ&hl=en); [Mubarak Shah](https://scholar.google.com/citations?user=p8gsO3gAAAAJ&hl=en)
+## GAMa (Ground-video to Aerial-image Matching)
+
+### Repository by [Shruti Vyas](https://scholar.google.com/citations?user=15YqUQUAAAAJ&hl=en)
 
 This is a PyTorch repository for our ECCV 2022 paper titled: ["GAMa: Cross-view Video Geo-localization".](https://arxiv.org/abs/2207.02431)
 
