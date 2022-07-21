@@ -13,7 +13,7 @@ In the gif, we see an example of a large aerial region, along with the video fra
 ![image](fig2_3.jpg)
 
 ### Dataset
-The dataset comprises of one large aerial image (1792x1792) corresponding to each video of around 40 sec. In Figure A, we see an example of a large aerial image, along with the small aerial images. We have a centered (CN) and an uncentered (UCN) set of small aerial images corresponding to the clips of 1 second each.
+The dataset comprises of one large aerial image (1792x1792) corresponding to each video of around 40 sec. In Figure A, we see an example of a large aerial image, along with the small aerial images. We have a centered (CN) and an uncentered (UCN) set of small aerial images corresponding to the clips of 1 second each. More details are [here:](https://arxiv.org/abs/2207.02431)
 
 ### Approach: 
 We have four steps in this approach (Figure B). In Step-1, we use GAMa-Net which takes one clip (0.5 sec) at a time and matches with an aerial image.
