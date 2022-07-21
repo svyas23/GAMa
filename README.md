@@ -41,7 +41,7 @@ https://bdd-data.berkeley.edu/
 ### System Requirements:
 - Anaconda3
 - Opencv3.5, Numpy, Matplotlib
-- Pytorch3, Python 3.6.9
+- PyTorch3, Python 3.6.9
 
 ### Evaluation of Hierarchical approach
 
