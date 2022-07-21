@@ -39,7 +39,7 @@ https://bdd-data.berkeley.edu/
 
 ## GAMa-Net
 ### System Requirements:
-- anaconda3
+- Anaconda3
 - Opencv3.5, Numpy, Matplotlib
 - Pytorch3, Python 3.6.9
 
