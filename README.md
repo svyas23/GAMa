@@ -4,7 +4,7 @@ By [Shruti Vyas](https://scholar.google.com/citations?user=15YqUQUAAAAJ&hl=en)
 
 This is the repository for ECCV 2022 paper titled: ["GAMa: Cross-view Video Geo-localization".](https://arxiv.org/abs/2207.02431)
 
-![gif](video_aerial_sample.gif) ![gif](predictions_1.gif)
+![gif](video_aerial_sample.gif) 
 
 In the gif, we see an example of a large aerial region, along with the video frames at each second.
 
@@ -19,6 +19,10 @@ The dataset comprises of one large aerial image (1792x1792) corresponding to eac
 We have four steps in this approach (Figure B). In Step-1, we use GAMa-Net which takes one clip (0.5 sec) at a time and matches with an aerial image.
 Using multiple clips of a video, we get a sequence of aerial images for the whole video, i.e. around 40 small aerial images. In Step-2, we use these predictions of aerial images and match them to the corresponding larger aerial region. We use a screening network to match the features however the features are from the
 same view i.e aerial view. In Step-3, we use the predictions to reduce the gallery by only keeping top ranked large aerial regions corresponding to a video. These large aerial regions define our new gallery for a given video. In Step-4, we use GAMa-Net i.e. the same network as in Step-1, however geo-localize using the updated gallery.
+
+![gif](predictions_1.gif)
+
+The gif shows an example of large aerial region for a video and ground truth trajectory as marked by the green line. Initially, only few of the top-1 images matched by GAMa-Net are in the region. After using updated gallery by hierarchical approach we have many more predictions in the correct region. We also show the outlier which did not fall in the correct larger aerial region.
 
 
 ## GAMa (Ground-video to Aerial-image Matching) dataset
