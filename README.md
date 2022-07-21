@@ -46,9 +46,9 @@ https://bdd-data.berkeley.edu/
 ### Final Evaluation of GAMa-Net model on updated/new gallery: 
 
 - Run the following script for evaluation
-	'''
+	```
 	python ./GAMa_Net/evaluationC_pred_Laerial_test_top1per.py
-	'''
+	```
 
 -- Please note that the first time evaluation will take longer to create a dictionary; after that evaluation will be faster
 	
