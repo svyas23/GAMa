@@ -44,7 +44,7 @@ https://bdd-data.berkeley.edu/
 - Run the following script for evaluation
 	python ./GAMa_Net/evaluationC_pred_Laerial_test_top1per.py
 
--- Please note that the first time evaluation will take longer (few hours) to create a dictionary; after that evaluation will be faster
+-- Please note that the first time evaluation will take longer to create a dictionary; after that evaluation will be faster
 	
 More details regarding training and evaluation are in Readme.txt file.
 
