@@ -16,6 +16,7 @@ We have four steps in this approach. In Step-1, we use GAMa-Net which takes one 
 Using multiple clips of a video, we get a sequence of aerial images for the whole video, i.e. around 40 small aerial images. In Step-2, we use these predictions of aerial images and match them to the corresponding larger aerial region. We use a screening network to match the features however the features are from the
 same view i.e aerial view. In Step-3, we use the predictions to reduce the gallery by only keeping top ranked large aerial regions corresponding to a video. These large aerial regions define our new gallery for a given video. In Step-4, we use GAMa-Net i.e. the same network as in Step-1, however geo-localize using the updated gallery.
 
+________________________________________________________
 ## GAMa (Ground-video to Aerial-image Matching) dataset
 
 Aerial images of GAMa dataset can be downloaded from this [link:](
@@ -24,16 +25,15 @@ https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.crcv.ucf.e
 Ground videos can be downloaded from BDD-100k dataset:
 https://bdd-data.berkeley.edu/  
 
+_______________________
 ## GAMa-Net
 ### System Requirements:
 - anaconda3
 - Opencv3.5, Numpy, Matplotlib
 - Pytorch3, Python 3.6.9
 
-____________________________________________
 ### Evaluation of Hierarchical approach
-_____________________________________________
-   
+
 
 ### Final Evaluation of GAMa-Net model on updated/new gallery: 
 
