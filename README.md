@@ -1,5 +1,6 @@
 # GAMa: Cross-view Video Geo-localization
 GAMa (Ground-video to Aerial-image Matching)
+By [Shruti Vyas](https://scholar.google.com/citations?user=15YqUQUAAAAJ&hl=en)
 
 This is the repository for ECCV 2022 paper titled: "GAMa: Cross-view Video Geo-localization".
 More details will be available soon.
