@@ -4,7 +4,7 @@ By [Shruti Vyas](https://scholar.google.com/citations?user=15YqUQUAAAAJ&hl=en)
 
 This is the repository for ECCV 2022 paper titled: ["GAMa: Cross-view Video Geo-localization".](https://arxiv.org/abs/2207.02431)
 
-[gif](video_aerial_sample.gif) [gif](predictions_1.gif)
+![gif](video_aerial_sample.gif) ![gif](predictions_1.gif)
 
 In the gif, we see an example of a large aerial region, along with the video frames at each second.
 
