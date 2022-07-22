@@ -9,7 +9,7 @@ This is a PyTorch repository for our ECCV 2022 paper titled: ["GAMa: Cross-view 
 
 ![gif](video_aerial_sample.gif "Ground-truth video trajectory") 
 
-In the gif, we see an example of a large aerial region corresponding to a video, along with the video frames at each second.
+We are solving the problem of video geolocalization using a cross-view approach which has not been used for video-geolocalization. In the gif, we see an example of a large aerial region corresponding to a video, along with the video frames at each second.  We can see the trajectory of the video on the aerial image. Subsequent GPS points are related by time and geographical location and we make use of this information for geo-localization at video level.
 
 ## Dataset and Hierarchical approach
 
