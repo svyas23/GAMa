@@ -9,7 +9,7 @@ This is a PyTorch repository for our ECCV 2022 paper titled: ["GAMa: Cross-view 
 
 ![gif](video_aerial_sample.gif "Ground-truth video trajectory") 
 
-In the gif, we see an example of a large aerial region, along with the video frames at each second.
+In the gif, we see an example of a large aerial region corresponding to a video, along with the video frames at each second.
 
 ## Dataset and Hierarchical approach
 
