@@ -70,4 +70,4 @@ More details regarding training and evaluation are in Readme.txt file.
   organization={Springer}
 }
 ```
-![image](table1.jpg "GAMa dataset", fig2_3.jpg )
+![image](table1.jpg fig2_3.jpg )
