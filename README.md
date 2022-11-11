@@ -55,7 +55,7 @@ The gif shows an example of large aerial region for a video and ground truth tra
 	python ./GAMa_Net/evaluationC_pred_Laerial_test_top1per.py
 	```
 
--- Model weights for GAMa-Net can be downloaded at this [link](https://drive.google.com/file/d/1jmGpvWPISrlXRjEA6J_aCWwk2Jhnl-_J/view?usp=sharing)
+- Model weights for GAMa-Net can be downloaded at this [link](https://drive.google.com/file/d/1jmGpvWPISrlXRjEA6J_aCWwk2Jhnl-_J/view?usp=sharing)
 -- Please note that the first time evaluation will take longer to create a dictionary; after that evaluation will be faster
 	
 More details regarding training and evaluation are in Readme.txt file.
